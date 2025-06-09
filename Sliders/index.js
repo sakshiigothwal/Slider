@@ -32,3 +32,4 @@ indicator.forEach((dot, index) => {
     updateSlider(currIndex);
   });
 });
+setInterval(nextSlide, 2000);
